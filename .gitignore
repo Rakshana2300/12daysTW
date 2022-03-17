@@ -1,5 +1,4 @@
 # From https://github.com/github/gitignore/blob/master/Gradle.gitignore
-.exercism
 .gradle
 /build/
 
@@ -61,7 +60,8 @@ hs_err_pid*
 
 ## File-based project format:
 *.iws
-
+/.idea/
+/.exercism/
 ## Plugin-specific files:
 
 # IntelliJ
