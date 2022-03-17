@@ -2,6 +2,12 @@
 .gradle
 /build/
 
+# gitignore template for Exercism project
+# website: https://exercism.io/
+
+# Ignore .exercism folder which contain sensitive data
+.exercism
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
@@ -60,8 +66,6 @@ hs_err_pid*
 
 ## File-based project format:
 *.iws
-/.idea/
-/.exercism/
 ## Plugin-specific files:
 
 # IntelliJ
